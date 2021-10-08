@@ -1,0 +1,18 @@
+cbuffer cbPerObject
+{
+	float4x4 gWorldViewProj
+}
+
+struct PixelIn
+{
+	float4 pos : POSITION
+	float4 color : COLOR
+};
+
+float4 PS(PixelIn pin) : SV_TARGET
+{
+	return pin.color;
+}
+
+
+

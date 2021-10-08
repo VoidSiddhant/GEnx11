@@ -1,0 +1,2 @@
+GEnx11.sdf filter=lfs diff=lfs merge=lfs -text
+GEnx11.lib filter=lfs diff=lfs merge=lfs -text

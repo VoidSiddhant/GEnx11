@@ -1,0 +1,13 @@
+﻿  Graphics.cpp
+g:\vs2015_projects\projects\genx11\genx11\graphics.cpp(142): warning C4244: '=': conversion from 'LONG' to 'FLOAT', possible loss of data
+g:\vs2015_projects\projects\genx11\genx11\graphics.cpp(143): warning C4244: '=': conversion from 'LONG' to 'FLOAT', possible loss of data
+g:\vs2015_projects\projects\genx11\genx11\graphics.cpp(212): warning C4244: '=': conversion from 'LONG' to 'FLOAT', possible loss of data
+g:\vs2015_projects\projects\genx11\genx11\graphics.cpp(213): warning C4244: '=': conversion from 'LONG' to 'FLOAT', possible loss of data
+g:\vs2015_projects\projects\genx11\genx11\graphics.cpp(225): warning C4244: 'argument': conversion from 'float' to 'UINT8', possible loss of data
+D3DCompiler.lib(D3DCOMPILER_47.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in d3d11.lib(d3d11.dll); second definition ignored
+D3DCompiler.lib(D3DCOMPILER_47.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+dxgi.lib(dxgi.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in d3d11.lib(d3d11.dll); second definition ignored
+dxgi.lib(dxgi.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+dinput8.lib(DINPUT8.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in d3d11.lib(d3d11.dll); second definition ignored
+dinput8.lib(DINPUT8.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+  GEnx11.vcxproj -> G:\VS2015_PROJECTS\Projects\GEnx11\x64\Debug\GEnx11.lib

@@ -1,0 +1,40 @@
+
+cbuffer cbPerObject
+{
+	float4x4 gWorldViewProj;
+}
+
+struct VertexIn
+{
+	float3 PosL : POSITION;
+	float4 Color : COLOR;
+};
+
+struct VertexOut
+{
+	float4 PosH : SV_POSITION;
+	float4 color :COLOR;
+};
+
+VertexOut VS(VertexIn vIn)
+{
+	VertexOut vOut;
+	vOut.posH = mul(float4(Vin.PosL,1.0f),gWorldViewProj);
+	vOut.color = vIn.Color;
+	return vOut;
+}
+
+float4 PS(VertexOut vOut)
+{
+	return vOut.Color;
+}
+
+technique11 ColorTech
+{
+	pass p0
+	{
+		SetVertexShader(CompileShader(vs_5_0,VS()));
+		SetGeometryShader(NULL);
+		SetPixelShader(CompileShader(ps_5_0,PS()));
+	}
+}
